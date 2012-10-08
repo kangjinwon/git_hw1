@@ -50,14 +50,14 @@ a:hover, a:active{color:#FF0000;font-weight: bold;}
 	text-decoration: none;
 	margin-right: 1px;
 }
-#navbar ul li a.selected {background-color: #000000;}
+#navbar ul li a.selected {background-color:#C5FFBC;}
 #navbar ul li a:hover {background-color: #1DDB16;}
 
 
 /* content */ 
 #content{margin-left: 5px;}
 #main_text{text-align: center;}
-table, tr, td{border:1px solid black; text-align: center;background-color: #FFFFFF}
+table, tr, td{border:1px solid #000; text-align: center;background-color: #FFFFFF}
 
 /* contnet_class */
 span.red{color:#FF0000;font-weight: bold;}
@@ -65,6 +65,7 @@ span.blue{color: #0100FF;font-weight: bold;}
 span.main_text{font-size: 24px;font-weight: bold;text-align: center; margin-left: 30px;}
 td.char{width: 50px;}
 td.char_contents{width: 150px;text-align: left; padding-left: 10px;}
+
 /* Footer */
 #footer{background-color: #A1FF98; color:#888; text-align: center; padding:  10px;
 	-moz-border-radius-bottomleft: 15px;
