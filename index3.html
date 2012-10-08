@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset = "utf-8">
+	<title>자기소개 페이지1</title>
+	<link href="stylesheets/main.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<div id="wrap">
+		<div id = "header">
+			<div id = "header_top">
+				<h1>강진원의 웹페이지</h1>
+			</div>
+			<div id = "navbar">
+				<ul>
+					<li><a href="index.html">홈으로</a></li>
+					<li><a href="index2.html">자기소개</a></li>
+					<li><a href="index3.html">설문조사</a></li>
+				</ul>
+
+			</div>
+			<div id = "line"></div>
+		</div>
+		<div id="content">
+			<form action="#" method="post">
+				<h2>설문 조사</h2>
+				<div id = "survey">
+				<table>
+				<tbody>
+					<tr>
+						<td colspan="2" style="background-color:Lightgray">개인정보</td>
+					</tr>
+					<tr>
+						<td>이  름</td>
+						<td><input type = "text" name = "name" size ="50"></td>
+					</tr>
+					<tr>
+						<td>학  번</td>
+						<td><input type = "text" name = "name" size ="50"></td>
+					</tr>
+					<tr>
+						<td>학  년</td>
+						<td><select name ="grade">
+							<option value="1">1학년</option>
+							<option value="2">2학년</option>
+							<option value="3">3학년</option>
+							<option value="4">4학년</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>성  별</td>
+						<td><input type ="radio" name ="sex" value="m">남
+							<input type ="radio" name ="sex" value="f">여
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="background-color:Lightgray"><strong>설문항목</strong></td>
+					</tr>
+					<tr>
+						<td>취  미</td>
+						<td><span class ="red">중복 선택 가능</span><br/>
+							<input type = "checkbox" name ="hobby" value ="book">책
+							<input type = "checkbox" name ="hobby" value ="movie">영화
+							<input type = "checkbox" name ="hobby" value ="music">음악
+							<input type = "checkbox" name ="hobby" value ="exercise">운동
+							<input type = "checkbox" name ="hobby" value ="travel">여행<br/>
+							<input type = "checkbox" name ="hobby" value ="cook">요리
+							<input type = "checkbox" name ="hobby" value ="tv">TV
+							<input type = "checkbox" name ="hobby" value ="fish">낚시
+							<input type = "checkbox" name ="hobby" value ="climb">등산
+						</td>
+					</tr>
+					<tr>
+						<td>전공만족도</td>
+						<td><span class="blue">현재 본인의 전공에 만족 하십니까?</span><br/>
+							<input type ="radio" name = "major" value="100">매우 만족
+							<input type ="radio" name = "major" value="75">만족
+							<input type ="radio" name = "major" value="50">보통
+							<input type ="radio" name = "major" value="25">어렵다
+							<input type ="radio" name = "major" value="0">전과희망
+						</td>
+					</tr>
+					<tr>
+						<td>강진원</td>
+						<td>강진원을 어떻게 생각 하시나요<br/>
+							<input type = "checkbox" name ="me" value ="kind">착하다
+							<input type = "checkbox" name ="me" value ="unkind">나빴다
+							<input type = "checkbox" name ="me" value ="selfish">이기적이다.
+							<input type = "checkbox" name ="me" value ="unselfish">이해심이 많다.
+						</td>
+					</tr>
+					<tr>
+						<td>하고싶은말</td>
+						<td><textarea cols="45" rows="10" name="a"></textarea></td>
+					</tr>
+
+				</tbody>
+				</table>
+				</div>
+				<input type="submit" value="입력하기"><br/>
+			</form>					
+		</div>
+		<div id="footer">
+			<p> Copyright ⓒ kang jin won. All rights reserved.</p>
+			<p> tel. 010 - 8569 - 7140</p>
+		</div>
+	</div>
+</body>
+</html>
