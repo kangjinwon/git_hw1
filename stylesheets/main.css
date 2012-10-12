@@ -21,10 +21,11 @@ input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inher
 input,button,textarea,select{font-size:100%;}
 
 /* Basic */
-h1{font-size:22px; line-height:28px; font-weight: bold;}
+h1{font-size:30px; line-height:28px; font-weight: bold; text-align: center;}
 h2{font-size:12px; line-height:24px; font-weight: bold;}
 a:visited, a:link{color:#0100FF;text-decoration: none;font-weight: bold;}
 a:hover, a:active{color:#FF0000;font-weight: bold;}
+
 
 
 
@@ -35,6 +36,8 @@ a:hover, a:active{color:#FF0000;font-weight: bold;}
 	box-shadow: 10px 10px 5px #888888;
 }
 
+/* header */
+#header_top{ height: 50px;}
 
 /*navbar*/
 #navbar{width: 960px; height: 30px; background-color:#A1FF98;}
@@ -56,15 +59,14 @@ a:hover, a:active{color:#FF0000;font-weight: bold;}
 
 /* content */ 
 #content{margin-left: 5px;}
-#main_text{text-align: center;}
 table, tr, td{border:1px solid black; text-align: center;background-color: #FFFFFF}
 
 /* contnet_class */
 span.red{color:#FF0000;font-weight: bold;}
 span.blue{color: #0100FF;font-weight: bold;}
-span.main_text{font-size: 24px;font-weight: bold;text-align: center; margin-left: 30px;}
+span.main_text{font-size: 24px;font-weight: bold;padding-left: 40px;text-shadow: 5px 5px 5px #5D5D5D;}
 td.char{width: 50px;}
-td.char_contents{width: 150px;text-align: left; padding-left: 10px;}
+td.char_contents{width: 150px;text-align: left; padding-left: 10px; }
 /* Footer */
 #footer{background-color: #A1FF98; color:#888; text-align: center; padding:  10px;
 	-moz-border-radius-bottomleft: 15px;
